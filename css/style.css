@@ -7,8 +7,33 @@ html,body{
   height: 100%;
   width: 100%;
   overflow: hidden;
-  text-align: center;
   position: relative;
   background-size: cover;
   background-attachment: fixed;
 }
+.section-2{
+  height: 100%;
+  background-color: red;
+}
+.phone{
+  position: fixed;
+  right: 10%;
+  top: 10%;
+}
+.iphone{
+  height: 700px;
+}
+#main-frase{
+  font-size: 1.5em;
+
+}
+.center{
+  margin: 0 auto;
+  width: 90%;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Lora', serif;*/
+  margin-top: 20%;
+}
+
