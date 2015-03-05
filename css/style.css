@@ -15,10 +15,22 @@ html,body{
   height: 100%;
   background-color: red;
 }
+.section-3{
+  height: 100%;
+  background-color: yellow;
+}
 .phone{
   position: fixed;
-  right: 10%;
+  right: 0;
   top: 10%;
+}
+.inner-phone{
+  position: absolute;
+  top: 16.2%;
+  left: 31.2%;
+  height: 471px;
+  width: 265px;
+  background-color: green;
 }
 .iphone{
   height: 700px;
@@ -29,7 +41,7 @@ html,body{
 }
 .center{
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
 }
 h1{
   font-family: 'Montserrat', sans-serif;
