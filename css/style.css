@@ -25,7 +25,7 @@ html,body{
 .phone{
   float: right;
   position: relative;
-  top: -530px;
+  top: -400px;
 }
 .main-img{
   width: 100%;
@@ -67,7 +67,7 @@ html,body{
 .fixed{
   position: fixed;
   right: 2px;
-  top: 2px;
+  top: 50px;
 }
 #name{
   font-size: 4em;
@@ -87,7 +87,9 @@ h1{
   /*font-family: 'Lora', serif;*/
   /*color: white !important;*/
 }
-
+.no-padding{
+  padding: 0 !important;
+}
 @media only screen and (max-width: 500px){
 
   .phone{
