@@ -6,46 +6,86 @@ html,body{
 #cover{
   height: 100%;
   width: 100%;
-  overflow: hidden;
-  position: relative;
+ /* overflow: hidden;
+  position: relative;*/
+  padding: 0;
+  margin: 0;
+/*background-image: url("http://s17.postimg.org/nisz6q21b/moment.jpg");*/
+/*background-image: url("");*/
   background-size: cover;
-  background-attachment: fixed;
 }
 .section-2{
   height: 100%;
-  background-color: red;
+  background-color: rgb(255,233,186);
 }
 .section-3{
   height: 100%;
-  background-color: yellow;
+  background-color: #171922;
 }
 .phone{
-  position: fixed;
-  right: 0;
-  top: 10%;
+  float: right;
+  position: relative;
+  top: -530px;
+}
+.main-img{
+  width: 100%;
+}
+.logo{
+  height: 150px;
+  margin-top: 5%;
+  margin-left: 100px;
+}
+.desc-text{
+  margin-top: 50%;
+}
+.white{
+  color:white !important;
 }
 .inner-phone{
-  position: absolute;
-  top: 16.2%;
-  left: 31.2%;
+  top: -586px;
+  left: 217.5px;
+  position: relative;
   height: 471px;
   width: 265px;
-  background-color: green;
+  background-size: cover;
+}
+.cell-phone-img{
+  height: 471px;
+  width: 265px;
 }
 .iphone{
   height: 700px;
 }
 #main-frase{
-  font-size: 1.5em;
-
+  font-size: 3.5em;
+  margin-top: 10% !important;
 }
-.center{
-  margin: 0 auto;
-  width: 80%;
+#secondary-frase{
+  font-size: 2em;
+  font-weight: 300;
+}
+.fixed{
+  position: fixed;
+  right: 2px;
+  top: 2px;
+}
+#name{
+  font-size: 4em;
+    font-weight: 700;
+}
+p{
+  font-size: 1.4em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: justify;
+  }
+p.big {
+    line-height: 200%;
 }
 h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
   /*font-family: 'Lora', serif;*/
-  margin-top: 20%;
+  /*color: white !important;*/
 }
+
 
