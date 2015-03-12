@@ -25,7 +25,7 @@ html,body{
 .phone{
   float: right;
   position: relative;
-  top: -400px;
+  top: -500px;
 }
 .main-img{
   width: 100%;
@@ -90,12 +90,34 @@ h1{
 .no-padding{
   padding: 0 !important;
 }
-@media only screen and (max-width: 500px){
+.buttons{
+padding-top: 30px;
+}
+a.download{
+  text-decoration: none;
+  color: white;
+}
+a.download:hover{
+  text-decoration: none;
+}
+
+.download{
+  /*background-color: blue;*/
+  padding: 3em;
+}
+.store{
+  width: 200px;
+}
+.download-icons{
+  margin-top: 20px;
+}
+@media only screen and (max-width: 700px){
 
   .phone{
     display: none;
   }
 
 }
+
 
 
