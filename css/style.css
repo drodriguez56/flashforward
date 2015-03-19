@@ -18,10 +18,12 @@ html,body{
 .section-2{
   height: 100%;
   background-color: rgb(255,233,186);
+  padding-bottom: 50px;
 }
 .section-3{
   height: 100%;
   background-color: #171922;
+  padding-bottom: 50px;
 }
 .phone{
   float: right;
