@@ -58,11 +58,11 @@ html,body{
   height: 700px;
 }
 #main-frase{
-  font-size: 3.5em;
-  margin-top: 10% !important;
+  font-size: 3em;
+  margin-top: 5% !important;
 }
 #secondary-frase{
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 300;
 }
 .fixed{
@@ -71,7 +71,7 @@ html,body{
   top: 50px;
 }
 #name{
-  font-size: 4em;
+  font-size: 5em;
     font-weight: 700;
 }
 p{
