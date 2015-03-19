@@ -72,7 +72,7 @@ html,body{
 }
 #name{
   font-size: 5em;
-    font-weight: 700;
+  font-weight: 700;
 }
 p{
   font-size: 1.4em;
@@ -98,6 +98,15 @@ h1{
 
   .phone{
     display: none;
+  }
+  #name{
+    font-size: 3em;
+  }
+  #main-frase{
+    font-size: 1.8em;
+  }
+  #secondary-frase{
+    font-size: 1.2em;
   }
 }
 
