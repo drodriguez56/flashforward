@@ -25,7 +25,8 @@ html,body{
 .phone{
   float: right;
   position: relative;
-  top: -500px;
+  top: 50px;
+  right: 15%;
 }
 .main-img{
   width: 100%;
@@ -43,15 +44,15 @@ html,body{
 }
 .inner-phone{
   top: -586px;
-  left: 217.5px;
+  left: 31px;
   position: relative;
-  height: 471px;
-  width: 265px;
+  height: 487px;
+  width: 278px;
   background-size: cover;
 }
 .cell-phone-img{
-  height: 471px;
-  width: 265px;
+  height: 487px;
+  width: 278px;
 }
 .iphone{
   height: 700px;
@@ -66,7 +67,7 @@ html,body{
 }
 .fixed{
   position: fixed;
-  right: 2px;
+  right: 15%;
   top: 50px;
 }
 #name{
