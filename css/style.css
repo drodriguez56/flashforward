@@ -6,13 +6,9 @@ html,body{
 #cover{
   height: 100%;
   width: 100%;
- /* overflow: hidden;
-  position: relative;*/
   padding: 0;
   margin: 0;
-/*background-image: url("http://s17.postimg.org/nisz6q21b/moment.jpg");*/
-/*background-image: url("");*/
-  background-color: rgb(88,34,254) !important;
+  background-color: #5822ff !important;
   background-size: cover;
 }
 .section-2{
@@ -40,21 +36,21 @@ html,body{
   margin-left: 100px;
 }
 .desc-text{
-  margin-top: 50%;
+  margin-top: 30%;
 }
 .white{
   color:white !important;
 }
 .inner-phone{
-  top: -586px;
+  top: -594px;
   left: 31px;
   position: relative;
-  height: 487px;
+  height: 495px;
   width: 278px;
   background-size: cover;
 }
 .cell-phone-img{
-  height: 487px;
+  height: 495px;
   width: 278px;
 }
 .iphone{
@@ -65,12 +61,13 @@ html,body{
   text-justify: inter-word !important;
 }
 #main-frase{
+  font-weight: 400;
   font-size: 3em;
   margin-top: 5% !important;
 }
 #secondary-frase{
+  font-weight: 200;
   font-size: 1.5em;
-  font-weight: 300;
 }
 .fixed{
   position: fixed;
@@ -81,19 +78,26 @@ html,body{
   font-size: 5em;
   font-weight: 700;
 }
+h2{
+  font-size: 4em !important;
+  padding-bottom: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
 p{
   font-size: 1.4em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  letter-spacing: 2px;
   }
 p.big {
     line-height: 200%;
 }
 h1{
-  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Montserrat', sans-serif; !important;
   color: white !important;
-  /*font-family: 'Lora', serif;*/
-  /*color: white !important;*/
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 .no-padding{
   padding: 0 !important;
